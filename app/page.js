@@ -30,7 +30,11 @@ export default function Home() {
     <div>
       <h1 className="mt-[5vh] pl-[5vw] text-2xl mb-4">Posk_UXdesigner_sr001</h1>
       <div className="flex">
-        <UserList userList={userList} addUsers={addUsers} addedUser={addedUser} />
+        <UserList
+          userList={userList}
+          addUsers={addUsers}
+          addedUser={addedUser}
+        />
         <UserTable addedUser={addedUser} />
       </div>
     </div>
